@@ -1,0 +1,212 @@
+/* ProfilePage.css */
+.profile-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.profile-container.light {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container.dark {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.profile-title {
+  color: #00b4d8;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.user-info {
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.user-info.light {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+}
+
+.user-info.dark {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+}
+
+.info-item {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.user-info.light .info-item {
+  border-color: #e0e0e0;
+}
+
+.user-info.dark .info-item {
+  border-color: #444;
+}
+
+.info-label {
+  font-weight: 500;
+  width: 120px;
+  color: #00b4d8;
+}
+
+.info-value {
+  flex: 1;
+  color: #00b4d8; /* Добавлено: делаем значение голубым */
+}
+
+.password-change-form {
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.password-change-form.light {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+}
+
+.password-change-form.dark {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+}
+
+.form-title {
+  color: #00b4d8;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #00b4d8;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-input.light {
+  border: 1px solid #ced4da;
+  background: white;
+  color: #333;
+}
+
+.form-input.dark {
+  border: 1px solid #444;
+  background: #2d2d2d;
+  color: #f0f0f0;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #00b4d8;
+  box-shadow: 0 0 0 2px rgba(0, 180, 216, 0.2);
+}
+
+.submit-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.submit-button.light {
+  background: #00b4d8;
+  color: white;
+}
+
+.submit-button.dark {
+  background: #0077b6;
+  color: white;
+}
+
+.submit-button:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.submit-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.message {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.message.success.light {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.message.success.dark {
+  background-color: #2d5c33;
+  color: #d4edda;
+  border: 1px solid #3e7546;
+}
+
+.message.error.light {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.message.error.dark {
+  background-color: #5c2b29;
+  color: #f8d7da;
+  border: 1px solid #8b3e3a;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .info-item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .info-label {
+    width: 100%;
+  }
+}

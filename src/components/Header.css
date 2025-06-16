@@ -1,0 +1,82 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .header.light {
+    background-color: white;
+    color: #333;
+  }
+  
+  .header.dark {
+    background-color: black;
+    color: #f0f0f0;
+  }
+  
+  .header__title {
+    color: #00b4d8; /* Голубой цвет для заголовка */
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .header__controls {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .theme-switcher,
+  .language-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .theme-switcher span,
+  .language-selector span {
+    color: #00b4d8; /* Голубой цвет для текста */
+  }
+  
+  .theme-switcher__button {
+    background-color: #00b4d8; /* Голубой цвет для кнопки */
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-switcher__button:hover {
+    background-color: #0096c7; /* Темнее голубой при наведении */
+  }
+  
+  .language-selector__select {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: 1px solid #00b4d8; /* Голубая рамка */
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .language-selector__select:focus {
+    outline: none;
+    border-color: #0096c7; /* Темнее голубой при фокусе */
+  }
+  
+  /* Стили для темной темы */
+  .header.dark .theme-switcher__button {
+    background-color: #0077b6; /* Темнее голубой в темной теме */
+  }
+  
+  .header.dark .language-selector__select {
+    background-color: #333;
+    color: #f0f0f0;
+  }

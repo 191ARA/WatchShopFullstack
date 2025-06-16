@@ -1,0 +1,425 @@
+/* AdminPanel.css */
+.admin-container {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-container.light {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .admin-container.dark {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .admin-logout-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .admin-logout-btn.light {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+  }
+  
+  .admin-logout-btn.dark {
+    background-color: #333;
+    border: 1px solid #555;
+    color: #fff;
+  }
+  
+  .admin-logout-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .admin-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid;
+  }
+  
+  .admin-tabs.light {
+    border-color: #ddd;
+  }
+  
+  .admin-tabs.dark {
+    border-color: #444;
+  }
+  
+  .admin-tab {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.3s ease;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .admin-tab.light {
+    color: #555;
+  }
+  
+  .admin-tab.dark {
+    color: #aaa;
+  }
+  
+  .admin-tab.active.light {
+    background-color: #e9ecef;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 3px solid #00b4d8;
+  }
+  
+  .admin-tab.active.dark {
+    background-color: #333;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 3px solid #0077b6;
+  }
+  
+  .admin-section {
+    margin-top: 2rem;
+  }
+  
+  .admin-create-form {
+    background-color: rgba(0, 180, 216, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .admin-edit-form {
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .admin-edit-form.light {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+  }
+  
+  .admin-edit-form.dark {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .order-edit-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input.light, .form-select.light, .form-textarea.light {
+    background-color: white;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  .form-input.dark, .form-select.dark, .form-textarea.dark {
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    color: #f0f0f0;
+  }
+  
+  .form-input:focus, .form-select:focus, .form-textarea:focus {
+    outline: none;
+    border-color: #00b4d8;
+    box-shadow: 0 0 0 2px rgba(0, 180, 216, 0.2);
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .form-label.light {
+    color: #555;
+  }
+  
+  .form-label.dark {
+    color: #aaa;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .admin-primary-btn, .admin-secondary-btn, .admin-edit-btn, .admin-delete-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  
+  .admin-primary-btn {
+    background-color: #00b4d8;
+    color: white;
+  }
+  
+  .admin-primary-btn:hover {
+    background-color: #0096c7;
+  }
+  
+  .admin-secondary-btn.light {
+    background-color: #e9ecef;
+    color: #495057;
+  }
+  
+  .admin-secondary-btn.dark {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .admin-secondary-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .admin-edit-btn.light {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .admin-edit-btn.dark {
+    background-color: #ffaa00;
+    color: #121212;
+  }
+  
+  .admin-delete-btn.light {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .admin-delete-btn.dark {
+    background-color: #c82333;
+    color: white;
+  }
+  
+  .watch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .watch-card {
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .watch-card.light {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .watch-card.dark {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .watch-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  
+  .watch-description {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .watch-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+    margin-top: 1.5rem;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-table.light th {
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+  
+  .admin-table.dark th {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .admin-table th, .admin-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid;
+  }
+  
+  .admin-table.light th, .admin-table.light td {
+    border-color: #e0e0e0;
+  }
+  
+  .admin-table.dark th, .admin-table.dark td {
+    border-color: #444;
+  }
+  
+  .admin-table tr:hover {
+    background-color: rgba(0, 180, 216, 0.1);
+  }
+  
+  .admin-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #00b4d8;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .admin-access-denied {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .admin-access-denied.light {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+  }
+  
+  .admin-access-denied.dark {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+  }
+  
+  @media (max-width: 768px) {
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .order-edit-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    
+    .admin-tabs {
+      flex-direction: column;
+    }
+    
+    .admin-table th, .admin-table td {
+      padding: 0.75rem;
+    }
+  }
+
+
+
+  /* AdminPanel.css */
+.search-sort-container {
+  margin: 20px 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.sortable-header {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: inherit;
+}
+
+.sortable-header:hover {
+  background-color: #f0f0f0;
+}
+
+.dark .sortable-header:hover {
+  background-color: #444;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dark .admin-table th,
+.dark .admin-table td {
+  border-color: #444;
+}

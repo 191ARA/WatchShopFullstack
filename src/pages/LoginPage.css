@@ -1,0 +1,187 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container.light {
+    background-color: #f5f5f5;
+  }
+  
+  .login-container.dark {
+    background-color: #121212;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .login-container.light .login-card {
+    background-color: white;
+  }
+  
+  .login-container.dark .login-card {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-title {
+    color: #00b4d8;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-label {
+    color: #00b4d8;
+    font-weight: 500;
+  }
+  
+  .form-input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input.light {
+    background-color: white;
+    color: #333;
+  }
+  
+  .form-input.dark {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+    border-color: #444;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #00b4d8;
+    box-shadow: 0 0 0 2px rgba(0, 180, 216, 0.2);
+  }
+  
+  .login-button {
+    padding: 0.8rem;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0096c7;
+  }
+  
+  .login-button:disabled {
+    background-color: #b0e0e6;
+    cursor: not-allowed;
+  }
+  
+  .login-container.dark .login-button {
+    background-color: #0077b6;
+  }
+  
+  .login-container.dark .login-button:hover {
+    background-color: #005f92;
+  }
+  
+  .login-message {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .login-message.light {
+    background-color: #ffebee;
+    color: #d32f2f;
+  }
+  
+  .login-message.dark {
+    background-color: #5c2b29;
+    color: #ff8a80;
+  }
+  
+  .login-footer {
+    margin-top: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .footer-text {
+    color: inherit;
+    margin: 0;
+  }
+  
+  .footer-link {
+    color: #00b4d8;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-link:hover {
+    color: #0096c7;
+    text-decoration: underline;
+  }
+  
+  .login-container.dark .footer-link {
+    color: #90e0ef;
+  }
+  
+  .login-container.dark .footer-link:hover {
+    color: #48cae4;
+  }
+
+
+
+  .login-footer .footer-text {
+    color: inherit; /* Наследует цвет от родителя */
+  }
+  
+  /* Для светлой темы */
+  .login-container.light .footer-text {
+    color: #333333; /* Темно-серый для светлой темы */
+  }
+  
+  /* Для темной темы */
+  .login-container.dark .footer-text {
+    color: #e0e0e0; /* Светло-серый для темной темы */
+  }
+  
+  /* Убедитесь, что ссылка остается голубой */
+  .footer-link {
+    color: #00b4d8 !important; /* Голубой цвет для ссылки */
+  }
+  
+  .login-container.dark .footer-link {
+    color: #48cae4 !important; /* Более светлый голубой для темной темы */
+  }

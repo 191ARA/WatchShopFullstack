@@ -1,0 +1,78 @@
+/* Основные стили */
+.homepage-container {
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+    color: #fff;
+    position: relative;
+  }
+  
+  .homepage-content {
+    padding: 20px;
+    border-radius: 12px;
+    text-align: right;
+    max-width: 400px;
+
+
+  }
+  
+  .homepage-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+  
+
+  .homepage-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+  }
+  
+
+  .animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+
+  @media (max-width: 768px) {
+    .homepage-container {
+      justify-content: center; 
+      padding-right: 0;
+      text-align: center;
+    }
+  
+    .homepage-content {
+      text-align: center;
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  
+    .homepage-title {
+      font-size: 24px; 
+    }
+  
+    .homepage-button {
+      padding: 10px 20px;
+    }
+  }

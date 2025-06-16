@@ -1,0 +1,263 @@
+
+
+{
+    "en": {
+      "title": "Watch Store",
+      "home": "Home",
+      "catalog": "Catalog",
+      "reviews": "Reviews",
+      "myOrders": "My Orders",
+      "adminPanel": "Admin Panel",
+      "hello": "Hello",
+      "logout": "Logout",
+
+      "light": "Light",
+      "dark": "Dark",
+      "watchStore": "Watch Store",
+      "about": "About Us",
+      "contacts": "Contacts",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+
+      "noAccount": "Don't have an account?",
+
+      "forgotPassword": "Forgot password?",
+      "loginError": "Login error. Please try again.",
+
+      "register": "Register",
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "haveAccount": "Already have an account?",
+      "login": "Login",
+      "registerError": "Registration error. Please try again.",
+      "loading": "Loading...",
+
+
+
+      "reviewsTitle": "Site Reviews",
+      "averageRatingLabel": "Average Rating",
+      "totalReviewsLabel": "Total Reviews",
+      "leaveReviewTitle": "Leave a Review",
+      "ratingLabel": "Rating",
+      "stars_1": "1 star",
+      "stars_2": "2 stars",
+      "stars_3": "3 stars",
+      "stars_4": "4 stars",
+      "stars_5": "5 stars",
+      "reviewPlaceholder": "Write your review...",
+      "submitReviewButton": "Submit Review",
+      "authRequiredMessage": "Login required to leave a review",
+      "latestReviews": "Latest Reviews",
+      "noReviewsYet": "No reviews yet",
+      "anonymousUser": "Anonymous User",
+      "profile": "Profile",
+
+      "myOrders1": "My Orders",
+      "loginRequired": "Please login to view your orders",
+      "ordersLoadError": "Error loading orders",
+      "networkError": "Network error while loading orders",
+      "noOrders": "You don't have any orders yet",
+      "quantity": "Quantity",
+      "total": "Total",
+      "date": "Date",
+
+
+      "catalog1": "Watch Catalog",
+      "searchPlaceholder": "Search by brand, model, year or price...",
+      "sortPrice": "Price",
+      "sortYear": "Year",
+      "sortBrand": "Brand",
+      "sortModel": "Model",
+      "sortAsc": "Ascending",
+      "sortDesc": "Descending",
+      "noResults": "No watches found matching your criteria",
+      "loadError": "Error loading watches",
+      "prev": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "of": "of",
+      
+
+
+      "year": "Year",
+      "price": "Price",
+      "stock": "In stock",
+
+      "placeOrder": "Place Order",
+      "loginRequired1": "You need to login to place an order",
+      "orderSuccess": "Order successfully placed and paid!",
+      "orderError": "Error placing order",
+      "networkError1": "Network error",
+      "paymentTitle": "Payment",
+      "amountToPay": "Amount to pay",
+      "cardNumber": "Card number",
+      "expiryDate": "Expiry date",
+      "paymentSuccess": "Payment successful!",
+      "thankYou": "Thank you for your order!",
+      "cancel": "Cancel",
+      "pay": "Pay",
+      "homeTitleLine1": "Watches for every taste",
+      "homeTitleLine2": "at the best prices",
+      "viewWatches": "View Watches",
+      "profileTitle": "Your Profile",
+      "profileInfo": "Profile Information",
+      "changePassword": "Change Password",
+      "yourName": "Your Name",
+
+
+
+      "role": "Role",
+      "admin": "Administrator",
+      "user": "User",
+
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "min6chars": "min. 6 characters",
+      "changePasswordButton": "Change Password",
+      "passwordChangeSuccess": "Password changed successfully",
+      "passwordChangeError": "Error changing password",
+      "allFieldsRequired": "All fields are required",
+      "passwordsNotMatch": "Passwords do not match",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "loginRequired2": "Please login to view your profile"
+
+
+
+      
+
+    }, 
+    "ru": {
+      "title": "Магазин часов",
+      "home": "Главная",
+      "catalog": "Каталог",
+      "reviews": "Отзывы",
+      "myOrders": "Мои заказы",
+      "adminPanel": "Панель администратора",
+      "hello": "Привет",
+      "logout": "Выйти",
+
+      "light": "Светлая",
+      "dark": "Темная",
+      "watchStore": "Магазин часов",
+      "about": "О нас",
+      "contacts": "Контакты",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия использования",
+
+      "noAccount": "Нет аккаунта?",
+
+      "forgotPassword": "Забыли пароль?",
+      "loginError": "Ошибка входа. Пожалуйста, попробуйте снова.",
+
+      "register": "Регистрация",
+      "name": "Имя",
+      "namePlaceholder": "Введите ваше имя",
+      "email": "Email",
+      "emailPlaceholder": "Введите ваш email",
+      "password": "Пароль",
+      "passwordPlaceholder": "Введите ваш пароль",
+      "haveAccount": "Уже есть аккаунт?",
+      "login": "Войти",
+      "registerError": "Ошибка регистрации. Пожалуйста, попробуйте снова.",
+      "loading": "Загрузка...",
+
+
+
+
+      "reviewsTitle": "Отзывы о сайте",
+      "averageRatingLabel": "Средняя оценка",
+      "totalReviewsLabel": "Всего отзывов",
+      "leaveReviewTitle": "Оставить отзыв",
+      "ratingLabel": "Оценка",
+      "stars_1": "1 звезда",
+      "stars_2": "2 звезды",
+      "stars_3": "3 звезды",
+      "stars_4": "4 звезды",
+      "stars_5": "5 звезд",
+      "reviewPlaceholder": "Напишите ваш отзыв...",
+      "submitReviewButton": "Отправить отзыв",
+      "authRequiredMessage": "Для оставления отзыва требуется авторизация",
+      "latestReviews": "Последние отзывы",
+      "noReviewsYet": "Отзывов пока нет",
+      "anonymousUser": "Анонимный пользователь",
+      "profile": "Профиль",
+
+
+      "myOrders1": "Мои заказы",
+      "loginRequired": "Пожалуйста, войдите в аккаунт",
+      "ordersLoadError": "Ошибка загрузки заказов",
+      "networkError": "Ошибка сети при загрузке заказов",
+      "noOrders": "У вас пока нет заказов",
+      "quantity": "Количество",
+      "total": "Сумма",
+      "date": "Дата",
+
+
+      "catalog1": "Каталог часов",
+      "searchPlaceholder": "Поиск по бренду, модели, году или цене...",
+      "sortPrice": "Цена",
+      "sortYear": "Год",
+      "sortBrand": "Бренд",
+      "sortModel": "Модель",
+      "sortAsc": "По возрастанию",
+      "sortDesc": "По убыванию",
+      "noResults": "Часы по вашему запросу не найдены",
+      "loadError": "Ошибка загрузки часов",
+      "prev": "Назад",
+      "next": "Вперед",
+      "page": "Страница",
+      "of": "из",
+
+
+      "year": "Год",
+      "price": "Цена",
+      "stock": "В наличии",
+
+      "placeOrder": "Оформить заказ",
+      "loginRequired1": "Для оформления заказа требуется войти в систему",
+      "orderSuccess": "Заказ успешно оформлен и оплачен!",
+      "orderError": "Ошибка при оформлении заказа",
+      "networkError1": "Ошибка сети",
+      "paymentTitle": "Оплата",
+      "amountToPay": "Сумма к оплате",
+      "cardNumber": "Номер карты",
+      "expiryDate": "Срок действия",
+      "paymentSuccess": "Оплата прошла успешно!",
+      "thankYou": "Спасибо за ваш заказ!",
+      "cancel": "Отмена",
+      "pay": "Оплатить",
+      "homeTitleLine1": "Часы на любой вкус и цвет",
+      "homeTitleLine2": "по самым хорошим ценам",
+      "viewWatches": "Перейти к часам",
+      "profileTitle": "Ваш профиль",
+      "profileInfo": "Информация профиля",
+      "changePassword": "Сменить пароль",
+      "yourName": "Ваше имя",
+
+
+
+      "role": "Роль",
+      "admin": "Администратор",
+      "user": "Пользователь",
+
+      "currentPassword": "Текущий пароль",
+      "newPassword": "Новый пароль",
+      "confirmPassword": "Подтвердите пароль",
+      "min6chars": "мин. 6 символов",
+      "changePasswordButton": "Сменить пароль",
+      "passwordChangeSuccess": "Пароль успешно изменен",
+      "passwordChangeError": "Ошибка при смене пароля",
+      "allFieldsRequired": "Все поля обязательны для заполнения",
+      "passwordsNotMatch": "Пароли не совпадают",
+      "passwordMinLength": "Пароль должен содержать минимум 6 символов",
+      "loginRequired2": "Пожалуйста, войдите в систему"
+
+
+
+    }
+  }

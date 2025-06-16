@@ -1,0 +1,79 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar.light {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .navbar.dark {
+    background-color: #212529;
+    border-bottom: 1px solid #444;
+  }
+  
+  .navbar__links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar__auth {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .navbar__link {
+    color: #00b4d8;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    padding: 0.5rem;
+  }
+  
+  .navbar__link:hover {
+    color: #0096c7;
+  }
+  
+  .navbar.light .navbar__link {
+    color: #00b4d8;
+  }
+  
+  .navbar.dark .navbar__link {
+    color: #48cae4;
+  }
+  
+  .navbar__greeting {
+    color: #00b4d8;
+  }
+  
+  .navbar.dark .navbar__greeting {
+    color: #90e0ef;
+  }
+  
+  .navbar__logout {
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .navbar__logout:hover {
+    background-color: #0096c7;
+  }
+  
+  .navbar.dark .navbar__logout {
+    background-color: #0077b6;
+  }
+  
+  .navbar.dark .navbar__logout:hover {
+    background-color: #005f92;
+  }
